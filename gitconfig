@@ -1,0 +1,22 @@
+[user]
+	name = Jake Archibald
+	email = jaffathecake@gmail.com
+[branch]
+	autosetuprebase = always
+[color]
+	diff = auto
+	ui = auto
+	branch = auto
+[color "branch"]
+	current = yellow bold
+	remote = cyan bold
+[color "diff"]
+	new = yellow bold
+	old = red bold
+	meta = cyan bold
+	frag = white bold
+	commit = white bold
+[color "status"]
+	added = yellow bold
+	changed = cyan bold
+	untracked = red bold
