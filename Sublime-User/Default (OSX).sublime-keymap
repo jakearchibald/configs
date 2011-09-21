@@ -1,2 +1,4 @@
 [
+	{ "keys": ["super+up"], "command": "swap_line_up" },
+	{ "keys": ["super+down"], "command": "swap_line_down" }
 ]
