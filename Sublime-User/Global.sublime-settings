@@ -1,6 +1,9 @@
 {
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"AAAPackageDev",
+		"GitHubinator",
+		"sublime-github"
 	]
 }

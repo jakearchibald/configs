@@ -10,6 +10,8 @@ alias gp='gup && git push'
 alias gff='git flow feature'
 alias gfr='git flow release'
 alias gci='git commit --interactive'
+alias gco='git checkout'
+alias gb='git branch'
 
 function gc {
 	git commit -am "$1"
