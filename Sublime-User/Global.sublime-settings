@@ -1,10 +1,23 @@
 {
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.fla",
+		"*.swf"
+	],
 	"ignored_packages":
 	[
 		"Vintage",
 		"AAAPackageDev",
-		"GitHubinator",
-		"sublime-github"
-	],
-	"binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.fla", "*.swf"]
+		"SublimeTagmatcher"
+	]
 }
