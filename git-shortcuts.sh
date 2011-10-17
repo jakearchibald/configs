@@ -23,6 +23,10 @@ function goops {
 	gs
 }
 
+function gfeat {
+  git checkout -b $1 && git push -u origin $1
+}
+
 function gup
 {
   # subshell for `set -e` and `trap`
