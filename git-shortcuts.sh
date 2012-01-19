@@ -12,6 +12,7 @@ alias gfr='git flow release'
 alias gci='git commit --interactive'
 alias gco='git checkout'
 alias gb='git branch'
+alias gdiff='git diff --color-words'
 
 function gc {
 	git commit -am "$1"

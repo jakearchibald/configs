@@ -1,3 +1,21 @@
 {
-	"auto_upgrade_last_run": 1318842064.0
+	"auto_upgrade_last_run": 1326539629,
+	"installed_packages":
+	[
+		"AAAPackageDev",
+		"Alignment",
+		"BufferScroll",
+		"Djaneiro",
+		"GitHubinator",
+		"Package Control",
+		"sublime-closure-linter",
+		"sublime-csspecific",
+		"sublime-github",
+		"SublimeCodeIntel",
+		"sublimelint",
+		"SublimeLinter",
+		"SublimeTagmatcher",
+		"WordHighlight",
+		"ZenCoding"
+	]
 }
