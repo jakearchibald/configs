@@ -13,6 +13,7 @@ alias gci='git commit --interactive'
 alias gco='git checkout'
 alias gb='git branch'
 alias gdiff='git diff --color-words'
+alias gclean='git gc --prune=now && git remote prune origin'
 
 function gc {
 	git commit -am "$1"
