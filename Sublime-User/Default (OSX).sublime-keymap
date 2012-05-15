@@ -1,4 +1,5 @@
 [
 	{ "keys": ["super+up"], "command": "swap_line_up" },
-	{ "keys": ["super+down"], "command": "swap_line_down" }
+	{ "keys": ["super+down"], "command": "swap_line_down" },
+	{ "keys": ["super+shift+h"], "command": "convert_hex_to_rgb" }
 ]

@@ -1,0 +1,31 @@
+{
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.fla",
+		"*.swf"
+	],
+	"color_scheme": "Packages/Tomorrow-Night.tmTheme",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"fallback_encoding": "UTF-8",
+	"font_size": 15.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"AAAPackageDev",
+		"SublimeTagmatcher"
+	],
+	"line_padding_bottom": 2,
+	"scroll_past_end": true,
+	"word_wrap": false
+}

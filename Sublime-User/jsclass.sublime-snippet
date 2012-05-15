@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+(function() {
+	function ${1:ClassName}($3) {
+		$4
+	}
+
+	var ${1:ClassName}Proto = ${1:ClassName}.prototype;
+
+	${2:export}.${1:ClassName} = ${1:ClassName};
+})();
+]]></content>
+	<tabTrigger>class</tabTrigger>
+	<scope>source.js</scope>
+	<description>Class exported from anonymous function</description>
+</snippet>
