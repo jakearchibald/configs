@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1336647385,
+	"auto_upgrade_last_run": 1341819745,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -7,7 +7,6 @@
 		"Alignment",
 		"Djaneiro",
 		"GitHubinator",
-		"Live CSS",
 		"Package Control",
 		"SCSS",
 		"SublimeLinter",

@@ -25,6 +25,11 @@
 		"AAAPackageDev",
 		"SublimeTagmatcher"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"line_padding_bottom": 2,
 	"scroll_past_end": true,
 	"word_wrap": false

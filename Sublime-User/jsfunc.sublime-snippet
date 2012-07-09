@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+function${1: functionName}($2) {
+	$3
+}
+]]></content>
+	<tabTrigger>ƒ</tabTrigger>
+	<scope>source.js</scope>
+	<description>JS function</description>
+</snippet>
