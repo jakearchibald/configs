@@ -7,13 +7,12 @@ alias gsp='gsup && gsvn dcommit'
 alias gf='git fetch'
 alias gr='git rebase'
 alias gp='gup && git push'
-alias gff='git flow feature'
-alias gfr='git flow release'
 alias gci='git commit --interactive'
 alias gco='git checkout'
 alias gb='git branch'
 alias gdiff='git diff --color-words'
 alias gclean='git gc --prune=now && git remote prune origin'
+alias glog='git log --graph --oneline --all --decorate'
 
 function gc {
 	git commit -am "$1"
