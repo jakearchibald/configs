@@ -1,0 +1,4 @@
+{
+	// removed - from word separators
+	"word_separators": "./\\()\"':,.;<>~!@$%^&*|+=[]{}`~?"
+}
