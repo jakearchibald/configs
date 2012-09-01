@@ -5,6 +5,12 @@
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
+# Git complete
+export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWUNTRACKEDFILES=1
+export GIT_PS1_SHOWUPSTREAM=1
+export GIT_PS1_SHOWSTASHSTATE=1
+
 # Show tab-completion options on first <tab> instead of waiting
 # for multiple completions.
 set show-all-if-ambiguous on
@@ -35,13 +41,6 @@ bash_prompt_command() {
         NEW_PWD=${NEW_PWD:$pwdoffset:$pwdmaxlen}
         NEW_PWD=${trunc_symbol}/${NEW_PWD#*/}
     fi
-}
-
-function parse_git_dirty {
-    [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "*"
-}
-function parse_git_branch {
-    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/[\1$(parse_git_dirty)]/"
 }
 
 bash_prompt() {
@@ -87,7 +86,7 @@ bash_prompt() {
 
     local UC=$EMW               # user's color
     [ $UID -eq "0" ] && UC=$R   # root's color
-    PS1="$TITLEBAR\u@\h ${EMC}\${NEW_PWD}${EMY}\$(parse_git_branch)${UC}\\$ ${NONE}"
+    PS1="$TITLEBAR\u@\h ${EMC}\${NEW_PWD}${EMY}\$(__git_ps1 '[%s]')${UC}\\$ ${NONE}"
     # extra backslash in front of \$ to make bash colorize the prompt
 }
 
