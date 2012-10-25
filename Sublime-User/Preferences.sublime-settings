@@ -32,5 +32,6 @@
 	],
 	"line_padding_bottom": 2,
 	"scroll_past_end": true,
+	"show_full_path": true,
 	"word_wrap": false
 }

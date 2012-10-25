@@ -1,13 +1,15 @@
 {
-	"auto_upgrade_last_run": 1345885864,
+	"auto_upgrade_last_run": 1350576786,
 	"installed_packages":
 	[
 		"AAAPackageDev",
 		"ActionScript 3",
 		"Alignment",
 		"Djaneiro",
+		"Element Finder",
 		"GitHubinator",
 		"Package Control",
+		"Sass",
 		"SCSS",
 		"SublimeLinter",
 		"SublimeTagmatcher",

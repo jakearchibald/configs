@@ -1,9 +1,11 @@
 alias ll='ls -l'
 alias share='python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"'
-function lanyrdssh {
-	ssh ubuntu@$1 -L *:8000:$1:8000
-}
 
-# Django shortcuts
-alias pym='python manage.py'
-alias pyms='pym runserver 0.0.0.0:8000'
+# Create a data URL from a file
+function dataurl() {
+	local mimeType=$(file -b --mime-type "$1")
+	if [[ $mimeType == text/* ]]; then
+		mimeType="${mimeType};charset=utf-8"
+	fi
+	echo "data:${mimeType};base64,$(openssl base64 -in "$1" | tr -d '\n')"
+}

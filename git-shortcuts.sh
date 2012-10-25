@@ -1,4 +1,4 @@
-alias gs='git status'
+alias gs='git status -s'
 alias gaa='git add -A'
 alias gdiff='git diff --color-words'
 alias gclean='git gc --prune=now && git remote prune origin'
@@ -13,6 +13,7 @@ else
 fi
 
 function gc {
+  gaa
   git commit -am "$1"
   gs
 }
@@ -20,4 +21,9 @@ function gc {
 function goops {
   git commit -a --amend
   gs
+}
+
+function gbranch {
+  git checkout -b $1
+  git push -u origin $1
 }
