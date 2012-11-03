@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1350576786,
+	"auto_upgrade_last_run": 1351937436,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -7,12 +7,16 @@
 		"Alignment",
 		"Djaneiro",
 		"Element Finder",
+		"emmet-sublime",
 		"GitHubinator",
 		"Package Control",
 		"Sass",
 		"SCSS",
 		"SublimeLinter",
-		"SublimeTagmatcher",
-		"ZenCoding"
+		"SublimeTagmatcher"
+	],
+	"repositories":
+	[
+		"https://github.com/sergeche/emmet-sublime"
 	]
 }

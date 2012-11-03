@@ -3,6 +3,7 @@ alias gaa='git add -A'
 alias gdiff='git diff --color-words'
 alias gclean='git gc --prune=now && git remote prune origin'
 alias glog='git log --graph --oneline --all --decorate'
+alias glogo='glog `git reflog | cut -c1-7`'
 
 if type git-up -t > /dev/null 2>&1; then
   alias gup='git-up'
