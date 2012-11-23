@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1353336997,
+	"auto_upgrade_last_run": 1353666661,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -9,6 +9,7 @@
 		"Element Finder",
 		"emmet-sublime",
 		"GitHubinator",
+		"Hayaku - tools for writing CSS faster",
 		"Package Control",
 		"Sass",
 		"SCSS",
