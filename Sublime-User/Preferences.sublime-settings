@@ -33,5 +33,7 @@
 	"line_padding_bottom": 2,
 	"scroll_past_end": true,
 	"show_full_path": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
 	"word_wrap": false
 }

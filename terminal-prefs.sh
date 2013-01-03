@@ -46,7 +46,7 @@ bash_prompt_command() {
 bash_prompt() {
     case $TERM in
      xterm*|rxvt*)
-         local TITLEBAR='\[\033]0;\h: \W\007\]'
+         local TITLEBAR='\[\033]0;\u@\h: \W\007\]'
           ;;
      *)
          local TITLEBAR=""
@@ -86,7 +86,7 @@ bash_prompt() {
 
     local UC=$EMW               # user's color
     [ $UID -eq "0" ] && UC=$R   # root's color
-    PS1="$TITLEBAR\u@\h ${EMC}\${NEW_PWD}${EMY}\$(__git_ps1 '[%s]')${UC}\\$ ${NONE}"
+    PS1="${TITLEBAR}${EMC}\${NEW_PWD}${EMY}\$(__git_ps1 '[%s]')${UC}\\$ ${NONE}"
     # extra backslash in front of \$ to make bash colorize the prompt
 }
 
