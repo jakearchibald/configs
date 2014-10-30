@@ -22,6 +22,7 @@
 	untracked = red bold
 [core]
 	excludesfile = /Users/jakearchibald/.gitignore_global
+	deltaBaseCacheLimit = 1G
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -32,3 +33,5 @@
 	keepBackup = false
 [push]
 	default = simple
+[credential]
+	helper = osxkeychain
