@@ -1,5 +1,6 @@
 alias ll='ls -l'
 alias share='python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"'
+alias curlh='curl -sD - -o /dev/null'
 
 # Create a data URL from a file
 function dataurl() {
